@@ -1,8 +1,8 @@
 # iw
 
 > ワイヤレスデバイスの表示と操作を行います。
-> `iw dev` も参照してください。
-> もっと詳しく: <https://wireless.docs.kernel.org/en/latest/en/users/documentation/iw.html>。
+> 参照: `iw dev`, `nmcli`, `iwctl`。
+> 詳細情報: <https://wireless.docs.kernel.org/en/latest/en/users/documentation/iw.html>。
 
 - 利用可能なワイヤレスネットワークをスキャンする:
 

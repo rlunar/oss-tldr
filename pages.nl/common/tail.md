@@ -4,9 +4,17 @@
 > Zie ook: `head`.
 > Meer informatie: <https://www.gnu.org/software/coreutils/manual/html_node/tail-invocation.html>.
 
-- Toon laatste aantal regels in een bestand:
+- Toon de laatste 10 regels van een bestand:
 
-`tail {{[-n|--lines]}} {{aantal}} {{pad/naar/bestand}}`
+`tail {{pad/naar/bestand}}`
+
+- Toon de laatste 10 regels van meerdere bestanden:
+
+`tail {{pad/naar/bestand1 pad/naar/bestand2 ...}}`
+
+- Toon laatste 5 regels in een bestand:
+
+`tail {{[-5|--lines 5]}} {{pad/naar/bestand}}`
 
 - Toon een bestand vanaf een specifiek regelnummer:
 
@@ -14,7 +22,7 @@
 
 - Toon een specifiek aantal bytes vanaf het einde van een opgegeven bestand:
 
-`tail {{[-n|--lines]}} {{aantal}} {{pad/naar/bestand}}`
+`tail {{[-c|--bytes]}} {{aantal}} {{pad/naar/bestand}}`
 
 - Toon de laatste regels van een bestand en blijf het bestand lezen tot `<Ctrl c>`:
 
@@ -24,6 +32,6 @@
 
 `tail {{[-F|--retry --follow]}} {{pad/naar/bestand}}`
 
-- Toon de laatste aantal regels in een bestand en ververs iedere 'n' seconden:
+- Toon de laatste `aantal` regels in een bestand en ververs iedere `seconden` seconden:
 
 `tail {{[-n|--lines]}} {{aantal}} {{[-s|--sleep-interval]}} {{seconden}} {{[-f|--follow]}} {{pad/naar/bestand}}`

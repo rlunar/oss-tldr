@@ -2,7 +2,7 @@
 
 > Execute operations on multiple Git repositories.
 > Part of `git-extras`.
-> More information: <https://github.com/tj/git-extras/blob/master/Commands.md#git-bulk>.
+> More information: <https://github.com/tj/git-extras/blob/main/Commands.md#git-bulk>.
 
 - Register the current directory as a workspace:
 
@@ -18,7 +18,7 @@
 
 - Clone repositories from a newline-separated list of remote locations, then register them as workspaces:
 
-`git bulk --addworkspace {{workspace_name}} /{{path/to/root/directory}} --from /{{path/to/file}}`
+`git bulk --addworkspace {{workspace_name}} /{{path/to/root_directory}} --from /{{path/to/file}}`
 
 - List all registered workspaces:
 

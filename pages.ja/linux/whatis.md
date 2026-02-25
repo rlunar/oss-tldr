@@ -1,7 +1,8 @@
 # whatis
 
 > マニュアルページから、一行の説明文を表示します。
-> もっと詳しく: <https://manned.org/whatis>。
+> 参照: `man`, `whereis`。
+> 詳細情報: <https://manned.org/whatis>。
 
 - manページの説明文を表示する:
 

@@ -1,7 +1,7 @@
 # gradle
 
 > オープンソースのビルド自動化システムです。
-> もっと詳しく: <https://gradle.org>。
+> 詳細情報: <https://manned.org/gradle>。
 
 - パッケージをコンパイルする:
 

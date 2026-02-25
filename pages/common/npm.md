@@ -2,7 +2,7 @@
 
 > JavaScript and Node.js package manager.
 > Manage Node.js projects and their module dependencies.
-> More information: <https://docs.npmjs.com/cli/npm>.
+> More information: <https://docs.npmjs.com/cli/npm/>.
 
 - Create a `package.json` file with default values (omit `--yes` to do it interactively):
 
@@ -22,7 +22,7 @@
 
 - Download the latest version of a package and install it globally:
 
-`npm {{[i|install]}} {{[-g|--global]}} {{package_name}}`
+`npm {{[i|install]}} {{package_name}} {{[-g|--global]}}`
 
 - Uninstall a package and remove it from the list of dependencies in `package.json`:
 

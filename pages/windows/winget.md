@@ -3,7 +3,7 @@
 > Windows Package Manager.
 > More information: <https://learn.microsoft.com/windows/package-manager/winget>.
 
-- Install a package:
+- Install a package (use `--source` when package is available from multiple sources):
 
 `winget {{[add|install]}} {{package}}`
 
@@ -29,8 +29,8 @@
 
 - Import packages from a file, or export installed packages to a file:
 
-`winget {{import|export}} {{--import-file|--output}} {{path/to/file}}`
+`winget {{import|export}} {{--import-file|--output}} {{path\to\file}}`
 
 - Validate manifests before submitting a PR to the winget-pkgs repository:
 
-`winget validate {{path/to/manifest}}`
+`winget validate {{path\to\manifest}}`

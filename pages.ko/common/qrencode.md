@@ -1,7 +1,8 @@
 # qrencode
 
 > QR 코드 생성기. PNG와 EPS를 지원합니다.
-> 더 많은 정보: <https://fukuchi.org/works/qrencode>.
+> 관련 항목: `qr`.
+> 더 많은 정보: <https://manned.org/qrencode>.
 
 - 문자열을 QR 코드로 변환하여 출력 파일로 저장:
 

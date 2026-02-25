@@ -1,7 +1,7 @@
 # systemctl reload
 
 > Reload a service's configuration without restarting it.
-> This reloads the service itself (like Apache or Nginx configs), not the systemd unit file.
+> This reloads the service itself (like Apache or `nginx` configs), not the systemd unit file.
 > To reload unit files, use `systemctl daemon-reload`.
 
 - Reload a service:
@@ -10,7 +10,7 @@
 
 - Reload multiple services:
 
-`systemctl reload {{networking apache2 ...}}`
+`systemctl reload {{unit1 unit2 ...}}`
 
 - Reload a service for the current user:
 

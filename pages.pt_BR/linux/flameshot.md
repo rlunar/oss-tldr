@@ -2,7 +2,7 @@
 
 > Função de captura da tela com uma Interface Gráfica do Usuário.
 > Suporta edição básica de imagens, como texto, formas, cores e imgur.
-> Mais informações: <https://flameshot.org>.
+> Mais informações: <https://flameshot.org/docs/advanced/commandline-options/>.
 
 - Cria uma captura da tela completa:
 
@@ -14,7 +14,7 @@
 
 - Cria uma captura da tela e salva em um caminho específico:
 
-`flameshot gui --path {{caminho/para/diretório}}`
+`flameshot gui {{[-p|--path]}} {{caminho/para/diretório}}`
 
 - Cria uma captura da tela interativamente em um modo simplificado:
 
@@ -22,16 +22,16 @@
 
 - Cria uma captura da tela a partir de um monitor específico:
 
-`flameshot screen --number {{2}}`
+`flameshot screen {{[-n|--number]}} {{2}}`
 
 - Cria uma captura da tela e imprime na saída padrão:
 
-`flameshot gui --raw`
+`flameshot gui {{[-r|--raw]}}`
 
 - Cria uma captura da tela e copia para a área de transferência:
 
-`flameshot gui --clipboard`
+`flameshot gui {{[-c|--clipboard]}}`
 
 - Cria uma captura da tela com um atraso específico em milissegundos:
 
-`flameshot full --delay {{5000}}`
+`flameshot full {{[-d|--delay]}} {{5000}}`

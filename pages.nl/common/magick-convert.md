@@ -1,7 +1,7 @@
 # magick convert
 
 > Converteer tussen afbeeldingsformaten, schaal, voeg samen, maak afbeeldingen en nog veel meer.
-> Let op: deze tool (voorheen `convert`) is vervangen door `magick` in ImageMagick 7+.
+> Opmerking: deze tool (voorheen `convert`) is vervangen door `magick` in ImageMagick 7+.
 > Meer informatie: <https://imagemagick.org/script/convert.php>.
 
 - Converteer een afbeelding van JPEG naar PNG:
@@ -18,7 +18,7 @@
 
 - Schaal een afbeelding zodat deze een gespecificeerde bestandsgrootte heeft:
 
-`magick convert {{pad/naar/invoer_afbeelding.png}} -define jpeg:extent=512kb {{pad/naar/uitvoer_afbeelding.jpg}}`
+`magick convert {{pad/naar/invoer_afbeelding.png}} -define jpeg:extent={{512kb}} {{pad/naar/uitvoer_afbeelding.jpg}}`
 
 - Verticaal/horizontaal toevoegen van afbeeldingen en maak de lege ruimte transparant:
 

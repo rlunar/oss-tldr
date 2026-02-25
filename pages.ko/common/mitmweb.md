@@ -1,8 +1,8 @@
 # mitmweb
 
 > 웹 기반의 대화형 중간자(MITM) HTTP 프록시.
-> 같이 보기: `mitmproxy`.
-> 더 많은 정보: <https://docs.mitmproxy.org/stable/concepts-options>.
+> 관련 항목: `mitmproxy`.
+> 더 많은 정보: <https://docs.mitmproxy.org/stable/concepts-options/>.
 
 - 기본 설정으로 `mitmweb` 시작:
 
